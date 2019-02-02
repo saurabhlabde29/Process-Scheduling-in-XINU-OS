@@ -1,0 +1,34 @@
+ 
+Xinu for Vbox -- version #691  (xinu)  Tue 16 Oct 19:55:41 PDT 2018
+
+Found Intel 82545EM Ethernet NIC
+MAC address is 08:00:27:9e:f4:08
+   4416984 bytes of free memory.  Free list:
+           [0x00161A20 to 0x0009FFF7]
+           [0x00100000 to 0x005F7FFF]
+    111533 bytes of Xinu code.
+           [0x00100000 to 0x0011B3AC]
+    135432 bytes of data.
+           [0x0011ED40 to 0x0013FE47]
+
+Obtained IP address  10.0.3.15   (0x0a00030f)
+
+
+########## Test Case 1, lottery scheduling (2 processes):
+Test RESULT: A : B (51 : 48)
+
+
+########## Test Case2, lottery scheduling (2 processes):
+Test RESULT: A : B (100 : 0)
+
+
+########## Test Case 3, lottery scheduling (2 processes):
+Test RESULT: A : B (74 : 25)
+
+
+########## Test Case 4, lottery scheduling (4 processes):
+Test RESULT: A : B : C : D (53 : 26 : 13 : 6)
+
+
+########## Test Case 5, lottery scheduling (4 processes):
+Test RESULT: A : B : C : D (37 : 37 : 11 : 13)
